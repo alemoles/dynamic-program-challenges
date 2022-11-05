@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/best_sum/BestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/best_sum/DESCRIPTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/best_sum/BestSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/can_construct/CanConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/can_construct/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/can_construct/CanConstructTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,14 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/best_sum",
+    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/can_construct",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\can_construct" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\best_sum" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\how_sum" />
     </key>
@@ -57,14 +58,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.can_construct" />
       <recent name="com.devstromo.best_sum" />
       <recent name="com.devstromo.how_sum" />
       <recent name="com.devstromo.can_sum" />
       <recent name="com.devstromo.grid_traveler" />
-      <recent name="com.devstromo.fibonacci" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BestSumTest">
+  <component name="RunManager" selected="JUnit.CanConstructTest">
     <configuration name="BestSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -80,6 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CanConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamic-program-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.can_construct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.can_construct" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.can_construct.CanConstructTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CanSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -90,21 +106,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.devstromo.can_sum" />
       <option name="MAIN_CLASS_NAME" value="com.devstromo.can_sum.CanSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciMemoizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-program-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.fibonacci" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.fibonacci.FibonacciMemoizationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CanConstructTest" />
         <item itemvalue="JUnit.BestSumTest" />
         <item itemvalue="JUnit.HowSumTest" />
         <item itemvalue="JUnit.CanSumTest" />
         <item itemvalue="JUnit.GridTravelerTest" />
-        <item itemvalue="JUnit.FibonacciMemoizationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +162,8 @@
       <workItem from="1667405916149" duration="4444000" />
       <workItem from="1667433991952" duration="2417000" />
       <workItem from="1667517242474" duration="3450000" />
-      <workItem from="1667621162880" duration="1588000" />
+      <workItem from="1667621162880" duration="1800000" />
+      <workItem from="1667666129803" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667520397077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="best sum -&gt; optimization problem">
+      <created>1667622869623</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667622869623</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +203,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="sum memoization" />
     <MESSAGE value="how to sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="how to sum" />
+    <MESSAGE value="best sum -&gt; optimization problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="best sum -&gt; optimization problem" />
   </component>
 </project>
