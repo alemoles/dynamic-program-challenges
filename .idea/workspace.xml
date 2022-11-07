@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/all_construct/AllConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/all_construct/DESCRIPTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/all_construct/AllConstructTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +163,7 @@
       <workItem from="1667621162880" duration="1800000" />
       <workItem from="1667666129803" duration="3360000" />
       <workItem from="1667756264407" duration="6769000" />
-      <workItem from="1667770897399" duration="10798000" />
+      <workItem from="1667770897399" duration="11341000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -212,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667763297131</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all construct">
+      <created>1667782988987</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667782988987</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +227,8 @@
     <MESSAGE value="best sum -&gt; optimization problem" />
     <MESSAGE value="can construct" />
     <MESSAGE value="count construct" />
-    <option name="LAST_COMMIT_MESSAGE" value="count construct" />
+    <MESSAGE value="all construct" />
+    <option name="LAST_COMMIT_MESSAGE" value="all construct" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
