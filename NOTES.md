@@ -1,6 +1,6 @@
 # NOTES
 
-### Memoization Recipe
+### Memoization Recipe (Top - Down) (recursive)
 
 1. Make it work
     - Visualize the problem as a tree
@@ -12,7 +12,7 @@
     - Add a base case to return memo values
     - Store return values into the memo
 
-### Tabulation
+### Tabulation (Bottom - Up) (iterative)
 
 1. Visualize the problem as a table
 2. Size the size of the table based on the inputs
