@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="" />
+    <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/grid_traveler/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/grid_traveler/GridTraveler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/grid_traveler/GridTravelerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,39 +35,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/all_construct&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/tabulation/grid_traveler",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\grid_traveler" />
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\fib" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\all_construct" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\countConstruct" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\can_construct" />
-      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\best_sum" />
-      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\how_sum" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.tabulation.grid_traveler" />
+      <recent name="com.devstromo.tabulation.fib" />
       <recent name="com.devstromo.all_construct" />
       <recent name="com.devstromo.countConstruct" />
       <recent name="com.devstromo.can_construct" />
-      <recent name="com.devstromo.best_sum" />
-      <recent name="com.devstromo.how_sum" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllConstructTest">
+  <component name="RunManager" selected="JUnit.GridTravelerTest">
     <configuration name="AllConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -94,36 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-program-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.best_sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.best_sum" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.best_sum.BestSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-program-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.can_construct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.can_construct" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.can_construct.CanConstructTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CountConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -139,13 +114,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamic-program-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.tabulation.fib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.fib" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.fib.FibonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridTravelerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamic-program-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.tabulation.grid_traveler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.grid_traveler" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.grid_traveler.GridTravelerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GridTravelerTest" />
+        <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.AllConstructTest" />
         <item itemvalue="JUnit.AllConstructTest.testAllConstruct" />
         <item itemvalue="JUnit.CountConstructTest" />
-        <item itemvalue="JUnit.CanConstructTest" />
-        <item itemvalue="JUnit.BestSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +168,9 @@
       <workItem from="1667621162880" duration="1800000" />
       <workItem from="1667666129803" duration="3360000" />
       <workItem from="1667756264407" duration="6769000" />
-      <workItem from="1667770897399" duration="11341000" />
+      <workItem from="1667770897399" duration="11531000" />
+      <workItem from="1667859450695" duration="3770000" />
+      <workItem from="1667950797100" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -214,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667782988987</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="code refactor">
+      <created>1667783365797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667783365797</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fibonacci tabulation">
+      <created>1667864087251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667864087251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +249,9 @@
     <MESSAGE value="can construct" />
     <MESSAGE value="count construct" />
     <MESSAGE value="all construct" />
-    <option name="LAST_COMMIT_MESSAGE" value="all construct" />
+    <MESSAGE value="code refactor" />
+    <MESSAGE value="fibonacci tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fibonacci tabulation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
