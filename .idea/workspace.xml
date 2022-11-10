@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/best_sum/BestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/best_sum/DESCRIPTION.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/how_sum/DESCRIPTION.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/how_sum/HowSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/how_sum/HowSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/how_sum/HowSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/how_sum/HowSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,21 +71,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HowSumTest">
-    <configuration name="AllConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-program-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.all_construct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.all_construct" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.all_construct.AllConstructTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CanSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -149,13 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HowSumTest.testHowSumFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamic-program-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.tabulation.how_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.how_sum" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.how_sum.HowSumTest" />
+      <option name="METHOD_NAME" value="testHowSumFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HowSumTest" />
+        <item itemvalue="JUnit.HowSumTest.testHowSumFail" />
         <item itemvalue="JUnit.CanSumTest" />
         <item itemvalue="JUnit.GridTravelerTest" />
         <item itemvalue="JUnit.FibonacciTest" />
-        <item itemvalue="JUnit.AllConstructTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +174,7 @@
       <workItem from="1667770897399" duration="11531000" />
       <workItem from="1667859450695" duration="3770000" />
       <workItem from="1667950797100" duration="1393000" />
-      <workItem from="1668037527773" duration="2811000" />
+      <workItem from="1668037527773" duration="5126000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668038620436</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="best sum tabulation">
+      <created>1668040575172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668040575172</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,12 +285,13 @@
     <MESSAGE value="fibonacci tabulation" />
     <MESSAGE value="grid traveler tabulation" />
     <MESSAGE value="can sum tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="can sum tabulation" />
+    <MESSAGE value="best sum tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="best sum tabulation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="result" language="JAVA" />
+        <watch expression="table" />
       </configuration>
     </watches-manager>
   </component>
