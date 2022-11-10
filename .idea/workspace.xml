@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/grid_traveler/DESCRIPTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/grid_traveler/GridTraveler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/grid_traveler/GridTravelerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/best_sum/BestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/best_sum/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/can_sum/CanSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/can_sum/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/best_sum/BestSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/can_sum/CanSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,31 +46,31 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/tabulation/grid_traveler",
+    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/tabulation/can_sum",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\can_sum" />
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\best_sum" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\grid_traveler" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\fib" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\all_construct" />
-      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\countConstruct" />
-      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\can_construct" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.tabulation.can_sum" />
+      <recent name="com.devstromo.tabulation.best_sum" />
       <recent name="com.devstromo.tabulation.grid_traveler" />
       <recent name="com.devstromo.tabulation.fib" />
       <recent name="com.devstromo.all_construct" />
-      <recent name="com.devstromo.countConstruct" />
-      <recent name="com.devstromo.can_construct" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GridTravelerTest">
+  <component name="RunManager" selected="JUnit.CanSumTest">
     <configuration name="AllConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -99,16 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CanSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devstromo.countConstruct.*" />
+          <option name="PATTERN" value="com.devstromo.tabulation.can_sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.countConstruct" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.countConstruct.CountConstructTest" />
+      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.can_sum" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.can_sum.CanSumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CanSumTest" />
         <item itemvalue="JUnit.GridTravelerTest" />
         <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.AllConstructTest" />
         <item itemvalue="JUnit.AllConstructTest.testAllConstruct" />
-        <item itemvalue="JUnit.CountConstructTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,8 @@
       <workItem from="1667756264407" duration="6769000" />
       <workItem from="1667770897399" duration="11531000" />
       <workItem from="1667859450695" duration="3770000" />
-      <workItem from="1667950797100" duration="1006000" />
+      <workItem from="1667950797100" duration="1393000" />
+      <workItem from="1668037527773" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -235,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667864087251</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="grid traveler tabulation">
+      <created>1667952064770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667952064770</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
     <MESSAGE value="all construct" />
     <MESSAGE value="code refactor" />
     <MESSAGE value="fibonacci tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fibonacci tabulation" />
+    <MESSAGE value="grid traveler tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="grid traveler tabulation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
