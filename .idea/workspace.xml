@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e84776-7ccf-4012-be37-6aea8b59a0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/can_construct/CanConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/can_construct/DESCRIPTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/can_construct/CanConstructTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/count_construct/CountConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/tabulation/count_construct/DESCRIPTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/tabulation/count_construct/CountConstructTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,18 +43,18 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/tabulation/can_construct",
+    "last_opened_file_path": "D:/WORK/PROYECTOS/JAVA/dynamic-program-challenges/src/main/java/com/devstromo/tabulation/count_construct",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\count_construct" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\can_construct" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\how_sum" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\test\java\com\devstromo\tabulation\how_sum" />
       <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\can_sum" />
-      <recent name="D:\WORK\PROYECTOS\JAVA\dynamic-program-challenges\src\main\java\com\devstromo\tabulation\best_sum" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,14 +63,14 @@
       <recent name="com.devstromo.tabulation.how_sum" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.devstromo.tabulation.count_construct" />
       <recent name="com.devstromo.tabulation.can_construct" />
       <recent name="com.devstromo.tabulation.how_sum" />
       <recent name="com.devstromo.tabulation.can_sum" />
       <recent name="com.devstromo.tabulation.best_sum" />
-      <recent name="com.devstromo.tabulation.grid_traveler" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CanConstructTest (1)">
+  <component name="RunManager" selected="JUnit.CountConstructTest">
     <configuration name="BestSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -116,6 +116,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dynamic-program-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.tabulation.count_construct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.count_construct" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.count_construct.CountConstructTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HowSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-program-challenges" />
       <extension name="coverage">
@@ -131,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowSumTest.testHowSumFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-program-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.tabulation.how_sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo.tabulation.how_sum" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.tabulation.how_sum.HowSumTest" />
-      <option name="METHOD_NAME" value="testHowSumFail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountConstructTest" />
         <item itemvalue="JUnit.CanConstructTest (1)" />
         <item itemvalue="JUnit.CanConstructTest" />
         <item itemvalue="JUnit.BestSumTest" />
         <item itemvalue="JUnit.HowSumTest" />
-        <item itemvalue="JUnit.HowSumTest.testHowSumFail" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +175,8 @@
       <workItem from="1667950797100" duration="1393000" />
       <workItem from="1668037527773" duration="5329000" />
       <workItem from="1668121403425" duration="1863000" />
-      <workItem from="1668205325319" duration="1189000" />
+      <workItem from="1668205325319" duration="2113000" />
+      <workItem from="1668296547819" duration="1597000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1667409746863</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668123038839</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="can construct tabulation">
+      <created>1668206832131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668206832131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +310,8 @@
     <MESSAGE value="can sum tabulation" />
     <MESSAGE value="how sum tabulation" />
     <MESSAGE value="best sum tabulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="best sum tabulation" />
+    <MESSAGE value="can construct tabulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="can construct tabulation" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
